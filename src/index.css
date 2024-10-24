@@ -1,13 +1,85 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body{
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
 }
+
+html{
+  overflow-x: hidden;
+}
+
+
+
+
+
+.spotlight h1.head {
+  font-size: 45px;
+  font-weight: bold;
+  color: #001f3f;
+}
+
+
+
+
+
+
+
+p{
+  font-family: "Manrope", sans-serif;
+  color: #001f3f;
+  font-size: larger;
+  
+}
+
+.btn-style{
+  background: linear-gradient(85.19deg, #ff2a64 -133.27%, #ffaf48 105.93%);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit; /* Optionally, inherit the color from the parent */
+}
+
+.footer-bg {
+  background-color: #ff5e00;
+  color: white;
+}
+
+div.rated{
+  background-color:#fff;
+  border-radius: 10px;
+}
+
+.hero h1,p{
+  color: #001f3f;
+}
+
+.add-videos{
+  background-color: #ff5e00;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  
+}
+
+.model-bg{
+  background-color: #ff5e00;
+}
+
+
+
+
+
+
